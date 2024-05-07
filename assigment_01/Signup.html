@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat app|Sign up</title>
+    <link rel="stylesheet" href="bootstrap.css"/>
+    <link rel="stylesheet" href="history.css">
+</head>
+<body style="background-image: url(source/WEB.png); background-size: cover;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded-5">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" style="font-size: 20px;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html" style="font-size: 20px;">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html" style="font-size: 20px;">cart</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="admin.html" style="font-size: 20px;">Admin Pannel</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="wishlist.html" style="font-size: 20px;">Wishlist</a>
+              </li>
+
+
+              <div class="bg-primary mt-3 rounded-2" style="margin: 10px; font-size: 20px;">
+                <li class="nav-item ">
+                  <box-icon name='log-in' type='solid' animation='tada' flip='vertical'></box-icon>
+                  <a class="nav-link" href="Login.html">Login</a>
+                </li>
+              </div>
+
+              <div class="bg-primary mt-3 rounded-2 " style="margin: 10px; font-size: 20px;">
+                <li class="nav-item ">
+                  <box-icon name='registered' type='solid' animation='tada'></box-icon>
+                  <a class="nav-link" href="Signup.html">Register</a>
+                </li>
+              </div>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                style="margin: 10px; font-size: 20px;">
+              <button class="btn btn-outline-success" type="submit"
+                style="margin: 10px; font-size: 20px;">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="container-fluid">
+        <!--grid system-->
+        <div class="row">
+            <!--topic-->
+            <div class="col-12 mt-5 text-center" >
+                <h1 class="text-light fw-bold ">Sign Up</h1>
+            </div>
+
+            <!--Name-->
+            <div class="col-8 col-lg-4 offset-2 offset-lg-4  mt-4" >
+                <div class="row" >
+                    <!--First name-->
+                    <div class=" col-12 col-lg-6">
+                    <label for="fName" class="text-light form-label fw-bold mt-4" ><box-icon name='user-pin' type='solid' animation='tada' ></box-icon>First Name</label>
+                    <input type="text" id="fName" class="form-control" placeholder="please enter First Name" >
+                    </div>
+                    <!--last Name-->
+                    <div class=" col-12 col-lg-6">
+                    <label for="LName" class="text-light form-label fw-bold mt-4  " > <box-icon name='user-pin' type='solid' animation='tada' ></box-icon>Last Name</label>
+                    <input type="text" id="LName" class="form-control" placeholder="please enter Last Name" >
+                    </div>
+                </div>
+                <!--Nick Name-->
+                <div class="col-8 col-lg-12 mt-4" >
+                    <label for="Nname" class="form-label text-light fw-bold fs-5" > <box-icon name='user' type='solid' animation='tada' ></box-icon> UserName</label>
+                    <input type=" text" class=" form-control" id="Nname"  placeholder="please enter Username" >
+                </div>
+
+                <!--Email-->
+                <div class="col-8 col-lg-12 mt-4" >
+                    <label for="Email" class="form-label text-light fw-bold fs-5" > <box-icon name='envelope' type='solid' animation='tada' ></box-icon> Email</label>
+                    <input type=" text" class=" form-control" id="Email" placeholder="please enter Email" >
+                </div>
+
+                <!--password-->
+                <div class="col-8 col-lg-12 mt-4" >
+                    <label for="pw" class="form-label text-light fw-bold fs-5" > <box-icon name='lock-alt' type='solid' animation='tada' ></box-icon>password</label>
+                    <input type=" password" class=" form-control" id="pw" placeholder="please enter Password" >
+            </div>
+            <!--re enter-->
+            <div class="col-8 col-lg-12 mt-4" >
+                    <label for="pw" class="form-label text-light fw-bold fs-5" > <box-icon name='rename' animation='tada' ></box-icon>Re-Enter password</label>
+                    <input type=" password" class=" form-control" id="pw" placeholder="please Re enter Password" >
+            </div>
+
+            <div class="col-12 d-grid mt-4 "  >
+                <button class="btn btn-dark" >Sign Up</button>
+            </div>
+
+            <a href="Login.html" style="text-decoration: none;">
+            <div class="col-12 d-grid mt-4 "  >
+                <button class="btn btn-primary" >Already Login ? Login Now</button>
+            </div>
+            </a>
+        </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>

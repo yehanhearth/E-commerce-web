@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    min-height: 100vh;
+     background: url('black.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 10%;
+    background: rgb(248, 245, 245);
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header a {
+
+    font-size: 1.1rem;
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 2.5rem;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background: white;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 22px;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 3);
+}
+nav > a{
+  color: black;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+nav > a:hover{
+  transition: 0.25;
+  background: rgb(56, 130, 209 );
+  color: white;
+
+}
+
+
+  
+
+  

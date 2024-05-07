@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="history.css">
+</head>
+<nav class="navbar navbar-expand-lg bg-body-tertiary rounded-5">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html" style="font-size: 20px;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="product.html" style="font-size: 20px;">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html" style="font-size: 20px;">cart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="admin.html" style="font-size: 20px;">Admin Pannel</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="wishlist.html" style="font-size: 20px;">Wishlist</a>
+          </li>
+
+
+
+          <div class="bg-primary mt-3 rounded-2" style="margin: 10px; font-size: 20px;">
+            <li class="nav-item ">
+              <box-icon name='log-in' type='solid' animation='tada' flip='vertical'></box-icon>
+              <a class="nav-link" href="Login.html">Login</a>
+            </li>
+          </div>
+
+          <div class="bg-primary mt-3 rounded-2 " style="margin: 10px; font-size: 20px;">
+            <li class="nav-item ">
+              <box-icon name='registered' type='solid' animation='tada'></box-icon>
+              <a class="nav-link" href="Signup.html">Register</a>
+            </li>
+          </div>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+            style="margin: 10px; font-size: 20px;">
+          <button class="btn btn-outline-success" type="submit"
+            style="margin: 10px; font-size: 20px;">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<body style="background-image: url(source/WEB.png); background-size: cover;">
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 mt-4">
+
+                <header>
+                    <h2 class="text-center text-bg-success">Invoice</h2>
+                    <hr>
+                </header>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><h1>UserName</h1></span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                  
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon2"><h1>User-Email</h1></span>
+                    <input type="text" class="form-control" placeholder="User's Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  </div>
+                  
+                  <div class="mb-3">
+                    <div class="input-group">
+                      <span class="input-group-text mb-3" id="basic-addon3"><h1>Card-Number</h1></span>
+                      <input type="text" class="form-control mb-3" id="basic-url" placeholder="Card-Number"  aria-describedby="basic-addon3 basic-addon4">
+
+                  
+                  <div class="input-group mb-3">
+                    <label for="basic-url" class="form-label m-3"><h1>Enter Price :- </h1></label>
+                    <span class="input-group-text">$</span>
+                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    <span class="input-group-text">.00</span>
+                  </div>
+                  
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Mobile-number" aria-label="Username">
+                    <span class="input-group-text"><h1>mobile number</h1></span>
+                    <input type="text" class="form-control" placeholder="cvc number" aria-label="Server">
+                  </div>
+                  
+                  <div class="input-group">
+                    <span class="input-group-text"><h1>Expire-Date</h1></span>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                  </div>
+
+                  <div class="btn col-12 mt-4">
+                    <button class="text-black text-bg-primary rounded-4" style="height: 50px; width: 600px;"><h1>Continue</h1></button>
+                  </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

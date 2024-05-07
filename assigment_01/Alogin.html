@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tech |Sign in </title>
+    
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="history.css">
+</head>
+<body style="background-image: url(source/WEB.png); background-size: cover;">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded-5">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" style="font-size: 20px;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html" style="font-size: 20px;">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html" style="font-size: 20px;">cart</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="admin.html" style="font-size: 20px;">Admin Pannel</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="wishlist.html" style="font-size: 20px;">Wishlist</a>
+              </li>
+
+
+              <div class="bg-primary mt-3 rounded-2" style="margin: 10px; font-size: 20px;">
+                <li class="nav-item ">
+                  <box-icon name='log-in' type='solid' animation='tada' flip='vertical'></box-icon>
+                  <a class="nav-link" href="Login.html">Login</a>
+                </li>
+              </div>
+
+              <div class="bg-primary mt-3 rounded-2 " style="margin: 10px; font-size: 20px;">
+                <li class="nav-item ">
+                  <box-icon name='registered' type='solid' animation='tada'></box-icon>
+                  <a class="nav-link" href="Aregister.html">Register</a>
+                </li>
+              </div>
+              <div class="dropdown m-3 ">
+                <button class="button rounded-5">Purchased History</button>
+                <div class="content">
+                    <a href="firstweek.html">First-Week</a>
+                    <a href="second.html">second-Week</a>
+                    <a href="third.html">three-Week</a>
+                </div>
+    
+            </div>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                style="margin: 10px; font-size: 20px;">
+              <button class="btn btn-outline-success" type="submit"
+                style="margin: 10px; font-size: 20px;">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="container-fluid">
+        <!--apply drid system-->
+        <div class="row" >
+            <!--topic-->
+            <div class="col-12 text-center mt-5" >
+                <h1 class="text-light  fw-bold" >Admin Sign In</h1>
+            </div>
+<!--email section-->
+            <div class="col-8 col-lg-4 offset-2 offset-lg-4 mt-4 mb-4" >
+                <label for="email" class="form-label text-light fw-bold fs-5 " ><box-icon name='lock-alt' type='solid' animation='tada' ></box-icon>  Email</label>
+                <input type="text" class="form-control" id="email" placeholder="please enter Email"/>
+
+            </div>
+    <!--password field-->
+            <div class="col-8 col-lg-4 offset-2 offset-lg-4 mt-4 mb-4" >
+                <label for="password" class="form-label text-light fw-bold fs-5"  > <box-icon name='envelope' type='solid' animation='tada' ></box-icon> Password </label>
+                <input type="password" class="form-control" id="password"  placeholder="please enter Password"/>
+            </div>
+
+                <!--apply buttons-->
+                <div class=" col-8 col-lg-4 offset-2 offset-lg-4 mt-4 ">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 d-grid mb-4 ">
+                            <button  class="btn btn-primary fw-bold">Sign in</button>
+                    </div>
+
+                    <!--sign up button-->
+                    <div class="col-12 col-lg-6 d-grid mb-4 ">
+                    <a href="Signup.html">
+                            <button class="btn btn-dark fw-bold" > Dont Have an account ? Sign Up</button>
+                    </div>
+                </a>
+
+                <a href="index.html" style="text-decoration: none;">
+            <div class="col-12 d-grid mt-4 "  >
+                <button class="btn btn-danger"  >Home here</button>
+            </div>
+            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
